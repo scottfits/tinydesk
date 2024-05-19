@@ -8,7 +8,7 @@
 import Foundation
 
 let url = URL(string: "https://openrouter.ai/api/v1/chat/completions")!
-let openRouterAPIKey = "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"
+let openRouterAPIKey = "PLACEHOLDER"
 
 func buildImageRequestPayload(prompt: String, base64Image: String, model: String) -> [String: Any] {
     let modelMap = [
