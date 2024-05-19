@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22D388D2BF9886C00BC9757 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D388C2BF9886C00BC9757 /* APIClient.swift */; };
+		D22D388F2BF99D8000BC9757 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D388E2BF99D8000BC9757 /* Utilities.swift */; };
+		D22D38912BF9C12900BC9757 /* ModelSelectionPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D38902BF9C12900BC9757 /* ModelSelectionPopUpButton.swift */; };
 		D2D0176F2BF915A000460AB9 /* OpenDeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D0176E2BF915A000460AB9 /* OpenDeskApp.swift */; };
 		D2D017712BF915A000460AB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D017702BF915A000460AB9 /* ContentView.swift */; };
 		D2D017732BF915A200460AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D017722BF915A200460AB9 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D22D388C2BF9886C00BC9757 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D22D388E2BF99D8000BC9757 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D22D38902BF9C12900BC9757 /* ModelSelectionPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectionPopUpButton.swift; sourceTree = "<group>"; };
 		D2D0176B2BF915A000460AB9 /* OpenDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D0176E2BF915A000460AB9 /* OpenDeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDeskApp.swift; sourceTree = "<group>"; };
 		D2D017702BF915A000460AB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +60,12 @@
 			children = (
 				D2D0176E2BF915A000460AB9 /* OpenDeskApp.swift */,
 				D2D017702BF915A000460AB9 /* ContentView.swift */,
+				D22D388C2BF9886C00BC9757 /* APIClient.swift */,
 				D2D017722BF915A200460AB9 /* Assets.xcassets */,
 				D2D017772BF915A200460AB9 /* OpenDesk.entitlements */,
 				D2D017742BF915A200460AB9 /* Preview Content */,
+				D22D388E2BF99D8000BC9757 /* Utilities.swift */,
+				D22D38902BF9C12900BC9757 /* ModelSelectionPopUpButton.swift */,
 			);
 			path = OpenDesk;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22D38912BF9C12900BC9757 /* ModelSelectionPopUpButton.swift in Sources */,
 				D2D017712BF915A000460AB9 /* ContentView.swift in Sources */,
 				D2D0176F2BF915A000460AB9 /* OpenDeskApp.swift in Sources */,
+				D22D388F2BF99D8000BC9757 /* Utilities.swift in Sources */,
+				D22D388D2BF9886C00BC9757 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Save images";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +319,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "Save images";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
